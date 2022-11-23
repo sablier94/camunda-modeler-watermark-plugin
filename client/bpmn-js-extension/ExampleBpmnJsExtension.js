@@ -40,8 +40,8 @@ export default function ExampleBpmnJsExtension(eventBus, canvas, editorActions) 
   });
 
   function AddWatermark() {
-    // Get g tag from SVG container
-    let g = domQuery('g.layer-root-1', canvas.viewer);
+
+    let g = document.querySelector("[class^='layer-root']");
   
     var txt = svgCreate('text');
     svgAttr(txt, {

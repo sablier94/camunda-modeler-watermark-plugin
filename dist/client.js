@@ -132,8 +132,8 @@ function ExampleBpmnJsExtension(eventBus, canvas, editorActions) {
   });
 
   function AddWatermark() {
-    // Get g tag from SVG container
-    let g = Object(min_dom__WEBPACK_IMPORTED_MODULE_1__["query"])('g.layer-root-1', canvas.viewer);
+
+    let g = document.querySelector("[class^='layer-root']");
   
     var txt = Object(tiny_svg__WEBPACK_IMPORTED_MODULE_0__["create"])('text');
     Object(tiny_svg__WEBPACK_IMPORTED_MODULE_0__["attr"])(txt, {
