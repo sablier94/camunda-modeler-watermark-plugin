@@ -128,7 +128,7 @@ function ExampleBpmnJsExtension(eventBus, canvas, editorActions) {
   });
 
   eventBus.on('import.done', function() {
-    AddWatermark();
+    //AddWatermark();
   });
 
   function AddWatermark() {
@@ -137,10 +137,9 @@ function ExampleBpmnJsExtension(eventBus, canvas, editorActions) {
   
     var txt = Object(tiny_svg__WEBPACK_IMPORTED_MODULE_0__["create"])('text');
     Object(tiny_svg__WEBPACK_IMPORTED_MODULE_0__["attr"])(txt, {
-      x: '200',
+      x: '500 px',
       y: '0',
-      transform: 'rotate(45deg)',
-      style: 'transform: rotate(45deg); fill: black; font-size: 150px; opacity: 0.05',
+      style: 'transform: rotate(45deg); fill: black; font-size: 200px; opacity: 0.05',
       id: 'draftwatermark',
     })
   

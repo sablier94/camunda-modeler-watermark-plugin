@@ -15,7 +15,7 @@
 module.exports = function (electronApp, menuState) {
   return [{
     label: 'Display/hide "draft" watermark',
-    accelerator: 'CommandOrControl+w',
+    accelerator: 'CommandOrControl+d',
     enabled: function() {
       return true;
     },
