@@ -41,11 +41,11 @@ export default function ExampleBpmnJsExtension(eventBus, canvas, editorActions) 
 
   function AddWatermark() {
 
-    let g = document.querySelector("[class^='layer-root']");
+    let g = document.querySelector("[class^='layer-root']>g>g>g");
   
     var txt = svgCreate('text');
     svgAttr(txt, {
-      x: '500 px',
+      x: '400 px',
       y: '0',
       style: 'transform: rotate(45deg); fill: black; font-size: 200px; opacity: 0.05',
       id: 'draftwatermark',
