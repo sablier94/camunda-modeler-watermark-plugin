@@ -1,1 +1,4 @@
-/* Custom styles go here */
+/* Custom style to set group labels in bold */
+g[data-element-id*="Group_"]>g>text {
+	font-weight: bold!important;
+}
