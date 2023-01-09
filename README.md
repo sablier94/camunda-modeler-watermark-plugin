@@ -7,7 +7,7 @@ This Camunda Modeler plugin enables the ability to add a "DRAFT" watermark on th
 
 1.  [Download ZIP](https://github.com/sablier94/camunda-modeler-watermark-plugin/archive/refs/heads/main.zip)
 2.  Extract
-3.  Move to  user data directory(%AppData%\camunda-modeler\Resources\Plugins), or app data directory
+3.  Move to  user data directory(`%AppData%\camunda-modeler\Resources\Plugins`), or app data directory
 4.  Restart Camunda Modeler
 5.  By default a "DRAFT" watermark is added to any document that will be opened, but this can be removed or added again manually via the action available in the menu.
 
